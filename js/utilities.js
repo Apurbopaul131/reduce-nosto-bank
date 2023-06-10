@@ -15,6 +15,5 @@ function getTextElementValueById(elementId) {
 
 function setTextElementValueById(elementId, newValue) {
   const textElement = document.getElementById(elementId);
-  console.log(newValue);
   textElement.innerText= newValue;
 }
